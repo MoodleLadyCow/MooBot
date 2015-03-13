@@ -1,4 +1,5 @@
 var replies = [ "moo moo!", "moodle", "moodle...", "m-mm-mmmoo?", ":D moodle moodle moo!", "moo",	"moo-moo", "<'.__.'>", ":v", "CHOMP!", "kekeke", "kikiki xD", "moodle moodle moo!", "mmmm", "merp",	"...", "merk :v", "mmmmmm.... mmmm... moo?", "moomoo?", "meh meh mehmoodle", "D< moodle moodle moodle moodle", "moodou~~", "merdddddllleee", "mehmeh moodle :v", "mooooooodddddlllllleeeee", "zzz", "ZZZ", "MOOMOO", "MOODLE", "D< MOODLE", "*gasp*  :o moodle?", "*rolls* ._.", ";-; moomoo", "*nod*", "*drinks tears* :P"];
+
 function output() {
 	post();
 	setTimeout(function(){ reply(); }, 1000);
@@ -29,6 +30,12 @@ function sleep(milliseconds) {
 
 function clears() {
 	var ins = document.getElementById('texts');
+	ins.onkeypress = function(e) {
+		if(e.keyCode == 13) {
+			e.preventDefault();
+			output();
+		}
+	}
 	ins.value = "";
 	ins.focus();
 }
