@@ -1,0 +1,23 @@
+#output {
+	height: 300px;
+	overflow: scroll;
+	width:100%;
+}
+form {
+	width: 100%;
+}
+textarea {
+	width: 100%;
+}
+.moobot {
+	color: red;
+}
+#wrapper {
+	width: 300px;
+	height:100%;
+}
+
+body {
+	height: 100%;
+	overflow:
+}
