@@ -6,9 +6,11 @@ Mer moodle moo-moo moodle moomoo.
 :D moo-moo!
 
 ##Moo
-Moodle moodle ____?
-Moodle: :D Moodle!
+```
+Moo: Moodle moodle ____?
 
+Moodle: :D Moodle!
+```
 mtc.
 
 ###Moodlix
